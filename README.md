@@ -18,7 +18,7 @@ Options:
 5 → 10%
 If the device name has already been used, the result from the database is returned. Also, if the user enters incorrect data in the experimentKey field or leaves the deviceToken field blank, an appropriate error message will be displayed.
 
-The database consists of only one table. Additionally, we have the ability to view experiment statistics, summarizing the total number of devices participating in the experiment and providing statistics for each option.
+The database consists of only one table(I will add a screenshot at the bottom). Additionally, we have the ability to view experiment statistics, summarizing the total number of devices participating in the experiment and providing statistics for each option.
 
 In addition, the program includes comments, and I utilized asynchronous methods to implement application optimization. The main advantage of asynchronous methods lies in their ability to more efficiently use computational resources. The fundamental idea is that when a method is waiting for the execution of a certain operation (in our case, a database query), it can yield control to other tasks that can run in parallel. This allows other parts of the program to work without blocking the execution thread.
 
