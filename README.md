@@ -21,4 +21,5 @@ If the device name has already been used, the result from the database is return
 The database consists of only one table. Additionally, we have the ability to view experiment statistics, summarizing the total number of devices participating in the experiment and providing statistics for each option.
 
 In addition, the program includes comments, and I utilized asynchronous methods to implement application optimization. The main advantage of asynchronous methods lies in their ability to more efficiently use computational resources. The fundamental idea is that when a method is waiting for the execution of a certain operation (in our case, a database query), it can yield control to other tasks that can run in parallel. This allows other parts of the program to work without blocking the execution thread.
+
 ![image](https://github.com/OleksandrHutsul/ExperimentTask/assets/111017111/864ded3f-a5a4-42d2-9e60-06aba84586bf)
